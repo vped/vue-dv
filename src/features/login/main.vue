@@ -8,28 +8,12 @@
       app
       dense
     )
-      v-btn(icon)
-        img.my-login__logo(src='~/@/assets/images/logo.svg' alt='VuePizza Logo')
-      v-spacer
-      v-btn(flat)
-        | GitHub
-      v-btn(flat)
-        | Tutorial
+
     v-layout(justify-center align-center)
       v-flex.text-xs-center(xs12 lg6)
         v-layout(row wrap)
           v-flex(xs12)
-            .my-login__logo-name
-              img(src='~/@/assets/images/logo-name.svg' alt='VueExample')
-          v-flex(xs12)
-            .my-login__subheading.subheading
-              | Examples by the Slice!
-          v-flex(xs12)
             v-card.my-login__card
-              v-card-title.my-login__card-title(primary-title)
-                v-avatar(:size="100")
-                  img(src='~/@/assets/images/profile.jpg' alt='Avatar')
-
               v-card-text
                 v-form
                   v-text-field(

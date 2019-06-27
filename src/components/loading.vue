@@ -10,7 +10,6 @@
       :style="style"
     )
     .my-loading__oops(ref="oops" v-show="!loading" :style="style")
-      img(src='~/@/assets/images/oops.svg' alt='Page Error')
       div
         | Oops!
         br
